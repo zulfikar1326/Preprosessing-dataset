@@ -11,7 +11,7 @@ Proyek ini mencakup teknik preprocessing data, seperti menangani **missing value
 - 🔄 **Mengisi Missing Values dengan Median**
 - 🔢 **Encoding Data Kategorikal**
 - 📈 **Normalisasi dengan MinMaxScaler**
-- 📊 **Visualisasi Sebelum & Sesudah Preprocessing**
+- 📊 **Menampilkan Sebelum & Sesudah Preprocessing**
 - 💾 **Penyimpanan File Preprocessed**
 
 ---
@@ -21,10 +21,7 @@ Proyek ini mencakup teknik preprocessing data, seperti menangani **missing value
 ```
 📂 data_preprocessing_project
 │── 📄 Learning_Preprosessing.ipynb  # Notebook utama
-│── 📂 data
-│   │── 📄 train.csv                 # Dataset asli
-│   │── 📄 before_processing.csv     # Data sebelum preprocessing
-│   │── 📄 after_processing.csv      # Data setelah preprocessing
+│── 📄 train.csv                     # Dataset asli
 │── 📄 README.md                     # Dokumentasi ini
 ```
 
@@ -34,13 +31,14 @@ Proyek ini mencakup teknik preprocessing data, seperti menangani **missing value
 
 Clone repository ini:
 ```bash
-git clone https://github.com/username/repo-name.git
-cd repo-name
+git clone https://github.com/zulfikar1326/Preprosessing-dataset.git
+cd Preprosessing-dataset/
 ```
 
 Jalankan notebook di Google Colab atau Jupyter Notebook:
 ```bash
-jupyter notebook Learning_Preprosessing.ipynb
+    buka Google Colab. lalu pilih
+    [file ──> Upload Notebook Baru ──> Pilih Learning_Preprosessing.ipynb]
 ```
 
 ---

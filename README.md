@@ -1,16 +1,17 @@
-# 📊 Data Preprocessing - Normalization & Missing Value Handling
+# 📊 Data Preprocessing - Handling Missing Values & Encoding
 
 ![Processing](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)
 
 ## 🚀 Overview
 
-Proyek ini mencakup teknik preprocessing data, seperti menangani **missing values** dan melakukan **normalisasi data** menggunakan Python dengan Pandas dan Scikit-Learn. 
+Proyek ini mencakup teknik preprocessing data, seperti menangani **missing values**, **encoding data kategorikal**, dan **normalisasi data** menggunakan Python dengan Pandas dan Scikit-Learn. 
 
 ## 🔧 Features
 - 🔍 **Identifikasi Missing Values**
 - 🔄 **Mengisi Missing Values dengan Median**
+- 🔢 **Encoding Data Kategorikal**
 - 📈 **Normalisasi dengan MinMaxScaler**
-- 📊 **Visualisasi Sebelum & Sesudah Normalisasi**
+- 📊 **Visualisasi Sebelum & Sesudah Preprocessing**
 - 💾 **Penyimpanan File Preprocessed**
 
 ---
@@ -22,8 +23,8 @@ Proyek ini mencakup teknik preprocessing data, seperti menangani **missing value
 │── 📄 Learning_Preprosessing.ipynb  # Notebook utama
 │── 📂 data
 │   │── 📄 train.csv                 # Dataset asli
-│   │── 📄 before_normalization.csv  # Data sebelum normalisasi
-│   │── 📄 after_normalization.csv   # Data setelah normalisasi
+│   │── 📄 before_processing.csv     # Data sebelum preprocessing
+│   │── 📄 after_processing.csv      # Data setelah preprocessing
 │── 📄 README.md                     # Dokumentasi ini
 ```
 
@@ -54,43 +55,32 @@ jupyter notebook Learning_Preprosessing.ipynb
 
 4️⃣ **Menangani Missing Values**: Mengisi nilai kosong dengan **median** agar distribusi tetap stabil.
 
-5️⃣ **Simpan Data Sebelum Normalisasi**: Data disimpan dalam `before_normalization.csv`.
+5️⃣ **Simpan Data Sebelum Processing**: Data disimpan dalam `before_processing.csv`.
 
-6️⃣ **Normalisasi Data**: Menggunakan **MinMaxScaler** agar data berada dalam rentang 0-1.
+6️⃣ **Encoding Data Kategorikal**: Mengubah kolom **MSZoning** dan **Neighborhood** menjadi numerik dengan LabelEncoder.
 
-7️⃣ **Simpan Data Setelah Normalisasi**: Data hasil normalisasi disimpan dalam `after_normalization.csv`.
+7️⃣ **Normalisasi Data**: Menggunakan **MinMaxScaler** agar data berada dalam rentang 0-1.
 
-8️⃣ **Visualisasi Perubahan Data**: Membandingkan distribusi sebelum dan sesudah normalisasi dengan histogram.
+8️⃣ **Simpan Data Setelah Processing**: Data hasil preprocessing disimpan dalam `after_processing.csv`.
 
 ---
 
 ## 📊 Hasil Visualisasi
 
-### 🔵 Sebelum Normalisasi
-![Before Normalization](https://media.giphy.com/media/l4pTfx2qLszoacZRS/giphy.gif)
+### 🔵 Sebelum Preprocessing
+  --ada di Laporan pdf
 
-### 🟢 Sesudah Normalisasi
-![After Normalization](https://media.giphy.com/media/l3vR3S9XkdoSg7HTW/giphy.gif)
+### 🟢 Sesudah Preprocessing
+  --ada di Laporan pdf
 
----
-
-## 📍 Letak File Data
-
-| File | Path |
-|------|------|
-| **Before Normalization** | `/data/before_normalization.csv` |
-| **After Normalization**  | `/data/after_normalization.csv`  |
-
----
 
 ## 📬 Kontak & Kontribusi
 💡 Punya ide? Fork repository ini, buat perubahan, lalu kirim pull request! 🚀
 
-📩 Hubungi saya di **[LinkedIn](https://www.linkedin.com/in/your-profile)** atau buka **Issue** jika ada pertanyaan!
+📩 Hubungi saya di **[instagram](https://www.instagram.com/zulfikarjuniarto/)** atau buka **Issue** jika ada pertanyaan!
 
 ⭐ Jangan lupa beri **star** jika proyek ini membantu! ⭐
 
 ---
 
-![Thanks](https://media.giphy.com/media/3o7TKPdUkkbDfpE68A/giphy.gif)
 
